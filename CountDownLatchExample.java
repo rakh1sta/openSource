@@ -15,6 +15,15 @@ public class CountDownLatchExample  {
         System.out.println("Main thread is here");
         latch.await();  
         System.out.println("Thread "+Thread.currentThread().getName()+" has finished");  
+        
+        /* <-------- Console -------->
+            Main thread is here
+            Worker Thread-3 has finished
+            Worker Thread-1 has finished
+            Worker Thread-2 has finished
+            Worker Thread-4 has finished
+            main has finished
+        */
     }  
 }  
  
