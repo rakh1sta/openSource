@@ -14,7 +14,7 @@ public class CountDownLatchExample  {
         thread4.start();  
         System.out.println("Main thread waiting......");
         latch.await();  
-        System.out.println("Thread "+Thread.currentThread().getName()+" finished");  
+        System.out.println("Thread "+Thread.currentThread().getName()+" has finished");  
     }  
 }  
  
