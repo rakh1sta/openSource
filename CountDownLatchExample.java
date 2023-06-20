@@ -2,9 +2,9 @@ public class CountDownLatchExample  {
     public static void main(String args[]) throws InterruptedException {  
         CountDownLatch latch = new CountDownLatch(4);  
   
-        Worker thread1 = new Worker(1000, latch, "Worker Thread-1");  
-        Worker thread2 = new Worker(2000, latch, "Worker Thread-2");  
-        Worker thread3 = new Worker(3000, latch, "Worker Thread-3");  
+        Worker thread1 = new Worker(2000, latch, "Worker Thread-1");  
+        Worker thread2 = new Worker(3000, latch, "Worker Thread-2");  
+        Worker thread3 = new Worker(1000, latch, "Worker Thread-3");  
         Worker thread4 = new Worker(4000, latch, "Worker Thread-4");  
        
         thread1.start();  
