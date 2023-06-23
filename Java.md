@@ -1,4 +1,4 @@
-<span style="color:blue; font-weight:bold">This is blue</span>
+<a href="https://github.com/binti-jamshidbek/openSource/blob/main/Java.md#:~:text=This%20is%20blue%20This%20is%20blue"><span style="color:blue; font-weight:bold">This is blue</span></a>
 <span style="color:blue; font-weight:bold">This is blue</span>
 
 
