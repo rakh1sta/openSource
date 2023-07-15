@@ -10,8 +10,8 @@ public class CountDownLatchExample  {
         thread1.start();  
         thread2.start();  
         thread3.start();  
-      
         thread4.start();  
+        
         System.out.println("Main thread is here");
         latch.await();  
         System.out.println("Thread "+Thread.currentThread().getName()+" has finished");  
